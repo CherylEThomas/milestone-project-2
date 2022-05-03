@@ -18,7 +18,7 @@
 <body>
     
     <!-- Control Area-->
-    <!-- Button code from Bootstrap component-->
+    <!-- Button code from Bootstrap components-->
     <div class="control-area">
         <div class="container-fluid"></div>
         <h1 class="head1">Alphabet Match Game</h1>
@@ -28,17 +28,18 @@
                     <h2 class="head2">Pairs</h2>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="score btn btn-warning"></button>
+                    <button type="button" class="score btn btn-play"><i class="far fa-play-circle"></i></button>
                     <h2 class="head2">Play / Reset</h2>
                 </div>
-                <div class="col col-end">
-                    <button type="button" class="score btn btn-success"></button>
+                <div class="col col-end help-page">
+                    <button type="button" class="score btn btn-help" data-bs-toggle="modal" data-bs-target="#helpModal"><i class="fas fa-question"></i></button>
                     <h2 class="head2">Help</h2>
                 </div>
             </div>
         </div>
     </div>
     <!-- /.Control Area-->
+
 
     <!-- 12 Card Game Area, 6 pairs in 3 rows of 4 cards -->
     <div class="card-area">
@@ -104,10 +105,32 @@
     </div>
     <!-- /.12 Card Game Area -->
 
+
     <!-- Complete Game Alert -->
     
     
     <!-- /.Complete Game Alert -->
+
+
+    <!-- Help Modal -->
+    <!-- Modal based on Bootstrap component modified to suit purpose-->
+    <div class="modal fade" id="helpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">How to play Alphabet Match Game</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Turn over the cards to match the letters with the pictures.  Try to remember where the correct letters are.  If you get it right then the cards will stay turned over - if they don't match then you'll need to try again.  Good luck!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /.Help Modal -->
 
     <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -65,13 +65,29 @@ font-family: 'Nunito', sans-serif;
     width: 50px;
   }
 
-  .btn-warning {
+  .btn-play {
     margin-left: 40px;
     background-color: #ffa987;
   }
 
-  .btn-success {
+  .btn-help {
     background-color: #247ba0;
+  }
+
+  .btn-secondary {
+    background-color: #247ba0;
+    font-family: "Nunito", sans-serif;
+    color: #0a0903;
+  }
+
+  .modal-title {
+    color: #4a1c2e;
+    font-family: "Mochiy Pop One", sans-serif;
+  }
+
+  .modal-body {
+    font-family: "Nunito", sans-serif;
+    color: #0a0903;
   }
   
   .container {
