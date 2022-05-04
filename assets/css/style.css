@@ -147,6 +147,42 @@ font-family: 'Nunito', sans-serif;
   .show {
     transform: rotateY(0deg);
   }
+
+  .winModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: #0a0903;
+  }
+  
+  .winModal-content {
+    text-align: center;
+    background-color: #fdfefd;
+    margin: 15% auto;
+    padding: 20px;
+    width: 40%;
+    border: 5px dashed #94ade5;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .closeButton {
+    color: #A0C24D;
+    float: right;
+    font-size: 30px;
+  }
+  
+  .closeButton:hover,
+  .closeButton:focus {
+    color: #A0C24D;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
   
   @media screen and (min-width: 770px) {
     .control-area {

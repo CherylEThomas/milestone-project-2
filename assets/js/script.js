@@ -2,6 +2,8 @@ let card = document.querySelectorAll('.cell')
 let front = document.querySelectorAll('.front')
 let container = document.querySelector('.container')
 let score = document.querySelector('.score span')
+let modal = document.getElementById("winModal");
+let playAgain = document.getElementById("play-again");
 
 shuffleImage()
 clicking()
@@ -52,3 +54,15 @@ function match(cardOne , cardTwo){
     }
 }
 
+function showWinModal() {
+    let modal = document.getElementById("winModal");
+    let closeButton = document.getElementsByClassName("closeButton")[0];
+    modal.style.display = "block";
+    closeButton.addEventListener("click", function() { document.getElementById("winModal").style.display = "none";});
+}
+
+function checkGameIsWon() {
+    if (score === 6) {
+        view.showWinModal();
+ }
+}
