@@ -48,7 +48,7 @@ font-family: 'Nunito', sans-serif;
 
   .head2 {
     font-size: large;
-    width: 250px;
+    width: 125px;
   }
  
   .btn {
@@ -63,12 +63,15 @@ font-family: 'Nunito', sans-serif;
   }
 
   .btn-play {
-    margin-left: 40px;
     background-color: #ffa987;
   }
 
   .btn-help {
     background-color: #247ba0;
+  }
+
+  .help-page {
+    padding-left: 25px;
   }
 
   .btn-secondary {
