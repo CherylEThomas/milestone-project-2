@@ -50,19 +50,15 @@ font-family: 'Nunito', sans-serif;
     font-size: large;
     width: 250px;
   }
-
-  /* .col-first {
-    align-items: center;
-  } */
-
-  /* .col-end {
-    justify-content: right;
-  } */
-
+ 
   .btn {
     margin-top: 10px;
     height: 50px;
     width: 50px;
+    color: #0a0903;
+  }
+
+  .btn i {
     color: #0a0903;
   }
 
