@@ -5,6 +5,8 @@ const score = document.querySelector(".score span");
 const modal = document.getElementById("winModal");
 const playAgain = document.getElementById("play-again");
 
+// Game function inspired by YouTube tutorial video (https://www.youtube.com/watch?v=7JbBr9q4UF8) modified to suit 
+
 shuffleImage();
 clicking();
 // Function to shuffle cards into random order for each game
@@ -51,6 +53,8 @@ function match(cardOne , cardTwo){
     }
 }
 
+// Inspired by Now Code This tutorial (https://nowcodethis.com/projects/) modified to suit 
+    
 function showWinModal() {
     let modal = document.getElementById("winModal");
     let closeButton = document.getElementsByClassName("closeButton")[0];
