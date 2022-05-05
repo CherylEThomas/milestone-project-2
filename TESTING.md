@@ -1,6 +1,6 @@
 # ALPHABET MATCH GAME
 
-## View the live project [here](https://cherylethomas.github.io/portfolio-project/)
+<!-- ## View the live project [here](https://cherylethomas.github.io/milestone-project-2/) -->
 ***
 
 ## Testing
@@ -8,15 +8,20 @@
 
 ### Validator Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to check for syntax errors in the project.  One error was found in the html code - an anchor linked to the Reset button.  Further development of the game will intend to include JavaScript code to reset the cards instead of requiring this button to reload the page.  This will then enable the link to be deleted from the button code, thereby eliminating this error.  
 
 * W3C Markup Validator:
- - Home page results ![Home](assets/testing-images/html-index.png)
- - Gallery page results ![Gallery](assets/testing-images/html-gallery.png)
- - Timetable page results ![Timetable](assets/testing-images/html-timetable.png)
+ - HTML game page results ![Home](assets/testing-images/html.jpg)
 
 * W3C CSS Validator:
- - CSS results ![CSS](assets/testing-images/css.png)
+ - CSS results ![CSS](assets/testing-images/css.jpg)
+
+### JSLint Testing
+
+The JSLint JavaScript testing service was used to test the script.js page.  A number of reports resulted.  The majority of these were minor syntax errors which have been corrected.  The remainder could not be rectified without causing the game to malfunction.  Further development of the game will intend to revise the JavaScript to fix these remaining errors.  
+
+ - ![Home](assets/testing-images/JSLint1.jpg)
+ - ![Home](assets/testing-images/JSLint2.jpg)
 
 ### WAVE Testing
 
