@@ -1,6 +1,6 @@
 # ALPHABET MATCH GAME
 
-<!-- ## View the live project [here](https://cherylethomas.github.io/milestone-project-2/) -->
+## View the live project [here](https://cherylethomas.github.io/milestone-project-2/)
 ***
 
 ## Testing
@@ -25,57 +25,42 @@ The JSLint JavaScript testing service was used to test the script.js page.  A nu
 
 ### WAVE Testing
 
-WAVE testing was carried out on every page of the project.
+WAVE testing was carried out on the project.
 
-* All errors found on pages were resolved.
-* Remaining issues are with contrast of the social media icons on the footer, however Coolors confirms the contract to be acceptable and so this element was left unresolved.
-* Remaining alerts are in regards the navbar links with both the brand logo and home logo both linking to the same page.  However this is part of the page design and so was left unresolved.
+* Alerts are in regards the control panel buttons which have been left unresolved at this point as they will be re-written once appropriate JavaScript code has been included to enable the buttons to function as intended. 
 
- - Home page results ![Home](assets/testing-images/wave-home.png)
- - Gallery page results ![Gallery](assets/testing-images/wave-gallery.png)
- - Timetable page results ![Timetable](assets/testing-images/wave-timetable.png)
-
+ - ![Home](assets/testing-images/wave.jpg)
+ 
 ### Lighthouse Testing
 
-Lighthouse testing was carried out on every page of the project.
+Lighthouse testing was carried out on the project.
 
 * Where time allowed issues found on pages were resolved.
-* Remaining issues in regards Best Practices on all pages were that the footer social media icons were considered too small.  On inspection though it seems as though the testing did not take account of the space around the icons and I felt that the icon size was acceptable.  No persons who tested the site on mobile devices for me had any issues pressing the social media icons.
-* Remaining issue in regards Performance on the gallery page were that the images used need to be of a different type, resolution and size.  However time restraints prevent me from being able to update and revise the gallery images prior to the project deadline.
+* Remaining issues in regards Performance and Accessibility were generally in regards to the images used needing to be of a different type, resolution and size.  However time restraints prevent me from being able to update and revise the gallery images prior to the project deadline.
 
- - Home page results ![Home](assets/testing-images/lighthouse-home.png)
- - Gallery page results ![Gallery](assets/testing-images/lighthouse-gallery.png)
- - Timetable page results ![Timetable](assets/testing-images/lighthouse-timetable.png)
+ - ![Home](assets/testing-images/lighthouse.jpg)
 
 
 ### Testing User Stories from User Experience (UX) Section
 
-#### First Time Visitor Goals
+#### First Time User Goals
 
-#### First Time Visitor Goals
+* First time users should be able to easily navigate around the site and play the game with minimal adult assistance.
+    - Users are greeted with a clear game board and simple accessible controls.
+* First time visitors should be able to easily start a new game.
+    - Users can press a single button to restart the game at any point.  The button is marked with a simple symbol for young game players who may not be able to read fully yet.
 
-* First time visitors should be able to easily navigate around the site.
-    - Users are greeted with a clearly visible navigation bar and links to all other pages.
-* First time visitors should be able to use the site to find out about the squad and be able to sign up to join.
-    - Squad information is clearly found on the home page along with a large visible call to action button providing a form for joining. 
+#### Returning User Goals
 
-#### Returning Visitor Goals
-
-* Returning visitors should be able to find information about upcoming competitions and events.
-    - Information on upcoming events is easily found on the Timetable page and clearly laid out.
-* Returning visitors should be able to contact the squad management team if required.
+* Returning users should be able to have a fresh game experience each time they play.
+    - Cards are shuffled randomly each time the game restarts to ensure the challenge is maintained and interesting.
+* Returning users should find new letters on the gameboard each time they play.
     - This feature has not yet been implemented.
 
-#### Frequent User Goals
-
-* Frequent users (i.e. members) should be able to view photos of their achievements on the gallery page.
-    - The Gallery page can be easily navigated to from any page using the navbar.
-* Frequent users (i.e. members) should be able to access social media links.
-    - All social media pages can be easily found on every page using the footer.
 
 ### Further Testing
 
-* The website was viewed on a variety of devices such as Desktop, Laptop & iPhone7.
-* A large amount of testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* The game was viewed on a variety of devices such as Desktop, Laptop & iPhone7.  Responsiveness on a small phone sized screen was not fully enabled at the time of submission, but will be addressed in further development.
+* The game was played many times to ensure that it ran correctly and that all links functioned correctly.
+* Friends and family members were asked to review the game and documentation to point out any bugs and/or user experience issues.
 

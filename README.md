@@ -1,100 +1,70 @@
-# ALL STARS SQUAD WEBSITE
+# ALPHABET MATCH GAME
 
-## View the live project [here](https://cherylethomas.github.io/portfolio-project/)
+## View the live project [here](https://cherylethomas.github.io/milestone-project-2/)
 ***
 
-![AmI.responsive design](/assets/readme-images/amiresponsive.png)
+![AmI.responsive design](/assets/readme-images/amiresponsive.jpg)
 
-This website is designed to be a homepage for my daughter's gymnastics squad.  This is a competitive squad and the website will document their achievements in a gallery for the squad members as well as showcase the squad for potential new gymnasts.  
+This game is designed to be used by primary school aged children who are learning to recognise alphabet letters.  It is intended to be fun yet simple challenge with a small amount of cards shuffling each time to ensure that the game is not too difficult for its intended user group.  
 
 ## User Experience (UX)
 ***
 
 ### User Stories
 
-#### First Time Visitor Goals
+#### First Time Users Goals
 
-* First time visitors should be able to easily navigate around the site.
-* First time visitors should be able to use the site to find out about the squad and be able to sign up to join.
+* First time users should be able to easily navigate around the site and play the game with minimal adult assistance.
+* First time visitors should be able to easily start a new game.
 
-#### Returning Visitor Goals
+#### Returning Users Goals
 
-* Returning visitors should be able to find information about upcoming competitions and events.
-* Returning visitors should be able to contact the squad management team if required.
+* Returning users should be able to have a fresh game experience each time they play.
+* Returning users should find new letters on the gameboard each time they play.
 
-#### Frequent User Goals
-
-* Frequent users (i.e. members) should be able to view photos of their achievements on the gallery page.
-* Frequent users (i.e. members) should be able to access social media links.
 
 ### Design
 
 #### Colour Scheme
 
-* The squad colours are black, maroon and gold.  The site uses corresponding maroon, yellow and black colours along with a basic white to prevent the site appearing too dark.
+* The site uses a friendly and bright colour scheme to appeal to young players.
 
-![Colour Palette](assets/readme-images/colour-palette.png)
+![Colour Palette](assets/readme-images/AlphabetPalette.png)
 
 * The colour scheme was checked for colour contrast suitability using [Coolors](https://coolors.co/) to ensure that the chosen colours would be suitably accessible.
 
-![Colour Contrasts](assets/readme-images/colour-contrast-checker1.png)
-![Colour Contrasts](assets/readme-images/colour-contrast-checker2.png)
-
 #### Typography
 
-* The [Google fonts](https://fonts.google.com/) font "Poppins" is the main font for the site.  Poppins is a simple, clear font which is easily read and understood.
+* The [Google fonts](https://fonts.google.com/) fonts "Mochiy Pop One" and "Nunito" are the main fonts for the site.  Mochiy Pop One is a fun font intended to appeal to young users and Nunito is a simple, clear font which is easily read and understood.  Alternative sans serif alternatives can be loaded if these fonts cannot be utilised for any reason.  
 
 #### Imagery
 
-* The large background hero image is the gymnastics club logo.  This clearly identifies the site and the club which the squad is part of.  
-* Images of the Coach and Assistant on the home page are stock images from [Pexels](https://www.pexels.com/) as I did not have permission to include images of the club staff.
-* Images on the gallery page are of my daughter and other members of the squad. Permission was sought and granted from their parents to include images of the other children in the squad.
+* Images for the card faces are taken from [Tulamama](https://tulamama.com/alphabet-flash-cards/) free to use flashcard downloads.
+* The back card image is from a free image resource at [Wallpaperaccess](https://wallpaperaccess.com/confetti#google_vignette).
 
 ### Wireframes
 
 Wireframes were produced using [Balsamiq](https://balsamiq.com/) to help form a visual guide of how I wanted the site to look once finished:
 
-* Home Page Wireframe - [View](https://share.balsamiq.com/c/wcDidgzBGrRnwUU5zMEy4C.png)
-* Mobile Wireframe - [View](https://share.balsamiq.com/c/9QLVk78Zx9n3GGKZbMNn8Q.png)
-* Gallery Page Wireframe - [View](https://share.balsamiq.com/c/2CRQfKaw6aEbVEZGiiE2qj.png)
-* Timetable Page Wireframe - [View](https://share.balsamiq.com/c/eUZEZ6Ui7hyF8uUzGNnunX.png)
+* Game Page Wireframe - [View](assets/readme-images/balsamiq1.jpg)
+* Help Page Wireframe - [View](assets/readme-images/balsamiq2.jpg)
+* Win Alert Wireframe - [View](assets/readme-images/balsamiq3.jpg)
 
 ## Features
 ***
 
-### Navigation Bar
-* The navigation bar is fully responsive.  It features buttons which link to the Home, Gallery and Timetable pages.  These links are fully visible on larger screens, but collapse down on mobile screens.  The club name on the right hand side of the navigation bar also acts as a link back to the home page which is always accessible on every page at all screen sizes. 
-![Navigation Bar](assets/readme-images/navbar1.png)
-![Navigation Bar](assets/readme-images/navbar2.png)
+### Control Area
+* The control area features buttons which allow the user to reset the game; a link to the help page and a score box.  These three controls remain fully visible on all size screens to make navigation easy for young users, however styling on a small screen requires some further development.  It is intended to further develop the controls to allow a JavaScript function to reset the game rather than reloading it fully.  
 
-### Hero Image
-* The Home page features a hero image to present the club logo and the main header of the club name to the user.  I initially planned to use this same format on all pages to maintain a consistent design across the site, however in reality this looked too large on the Gallery and Timetable pages and so I reduced the size of the hero image and omitted the text for these pages which works better visually for the sub pages. I utilised an animation effect on the hero image to draw the eye at first glance.
-![Hero Image](assets/readme-images/hero1.png)
-![Hero Image](assets/readme-images/hero2.png)
-
-### Meet the Squad
-* The Home page features photos and introductions to the members of the squad.  The section of the page is responsive to screen sizes.  On a large screen all three sections are visible side by side.  On a medium size screen this reduces to two sections side by side and on a mobile screen the sections run singly one after each other.
-
-### Application Modal
-* The Home page also features a button which takes the user to an interactive pop-up modal where they can apply to join the squad.
-![Modal](assets/readme-images/modal.png)
-
-### Footer
-* All pages feature the same footer which provides links to the squad's various social media platforms via their corresponding icons.
-
-### Gallery
-* The Gallery page features photos from the squads competitions, club sessions and a photoshoot.  It gives a visual guide to the squad to users and provides a record of achievements to squad members.  This page is responsive to screen sizes.  Images are shown in four columns on larger screens and in two colums on medium and mobile screens.
-
-### Timetable
-* The Timetable page provides information on when and where the squads meets and trains and also has a timeline for upcoming events. 
+### Game grid
+* The main game is set out as a grid of cards.  It is intended to keep the grid as a fixed size to ensure that the game is usable for younger children.  It is considered that having the game grid increase in size as the game progresses would make the game difficult for young players.  The intention of the game is in a learning capacity rather than as an increasingly difficult game.  
 
 ### Future Features
 Additional features which could be included in the future include:
-* Addition of a Contact button to allow the user to get in touch with the squad management team.
-* Links on the Upcoming Events section to allow users to register at events directly from the page.
-* A page with links to the main gymnastics club site and the various other teams and groups of the club.
-* A members only page which requires log-in details and which could allow members to access their training schedules, gradings, etc.
-* Provide Welsh language versions of the pages for bilingual users. 
+* Incorporation of more alphabet letters and corresponding pictures into the shuffled pack of cards.
+* JavaScript code to enable an pop-up modal congratulating the player on winning and providing a button to start playing a new game.  Code for this feature has been started but could not be completed in time for submission at this point.
+* An alternative game with cards showing numbers and pictures with a corresponding quantity of items.
+* Provide additional Welsh language letter versions of the cards (i.e. letters dd, ll, ch) for bilingual users. 
 
 ## Technologies Used
 ***
@@ -112,11 +82,13 @@ The following technologies were used in the production and testing of the site:
 * [GitPod](https://www.gitpod.io/) - for the Integrated Development Environment.
 * [Coolors](https://coolors.co/) - for assessing colour schemes.
 * [Google Fonts](https://fonts.google.com/) - for the site font.
-* [Pexels](https://www.pexels.com/) - for stock images.
+* [Tulamama](https://tulamama.com/alphabet-flash-cards/) - for card face images.
+* [Wallpaperaccess](https://wallpaperaccess.com/confetti#google_vignette) - for card back image.
 * Google Developer Tools - for testing, reviewing and styling the pages.
 * [WAVE](https://wave.webaim.org/) - for checking site accessibility.
 * [Jigsaw](https://jigsaw.w3.org/css-validator/) - for validating CSS code.
 * [W3](https://validator.w3.org/) - for validating HTML code.
+* [JSLint](https://jslint.com/) - for validating JavaScript code.
 * Lighthouse - for testing the site.
 * [Git](https://git-scm.com/) - for version control.
 
@@ -131,23 +103,23 @@ Please refer to TESTING.md for all testing documentation.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CherylEThomas/portfolio-project)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CherylEThomas/milestone-project-2)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "Pages" Section in the left hand side menu.
 4. Under "Source", click the dropdown called "None" and select "Main Branch".
 5. Click "Save" and refresh the page.
 6. Locate the now published site link in the "GitHub Pages" section.
 
-The link created for the site is [here](https://cherylethomas.github.io/portfolio-project/)
+The link created for the site is [here](https://cherylethomas.github.io/milestone-project-2/)
 
 ## Credits
 ***
 
 ### Code
 
-* The Code Institute tutorial projects for Love Running, Whiskey Drop and Rosie's Resume were utilised for inspiration and code elements throughout the project.  Comments in the code indicate where these were used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project.  
+* The Code Institute tutorials were utilised for inspiration and code elements throughout the project.  Comments in the code indicate where these were used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project.  
 
-* [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/download/) Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+* [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/download/) Bootstrap Library used within the project mainly to make site responsive using the Bootstrap Grid System.
 
 ### Content
 
@@ -157,10 +129,19 @@ The link created for the site is [here](https://cherylethomas.github.io/portfoli
 
 * [Gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) Code Institute template was used as the basis for the site pages.
 
+* [Now Code This](https://nowcodethis.com/) Card game tutorial provided inspiration and parts of code were utilised.  Comments in the code indicate where this was used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project. 
+
+* [YouTube](https://www.youtube.com/watch?v=7JbBr9q4UF8) Card game video tutorial.  Comments in the code indicate where this was used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project.
+
+* [YouTube](https://www.youtube.com/watch?v=tjyDOHzKN0w) Card game video tutorial.  Comments in the code indicate where this was used more clearly.  Where code from tutorial projects was used, this was modified and altered by myself to suit this project.
+
+* [w3schools](https://www.w3schools.com/howto/howto_css_flip_card.asp) Card flip tutorial.
+
+* [3dtransforms](https://3dtransforms.desandro.com/card-flip) Card flip tutorial.
+
+
 ### Acknowledgements
 
-* My Mentor Victor Miclovich for helpful guidance and feedback throughout the project.
+* My Mentor Victor Miclovich for invaluable guidance and feedback throughout the project.
 * Fellow students on Slack for providing invaluable help and solutions.
 * My family and friends for testing the site.
-* All Stars Gymnastics Club Squad for the inspiration.
-* Squad parents for allowing me to use images of their children.
